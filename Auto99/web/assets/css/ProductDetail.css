@@ -1,0 +1,310 @@
+body {
+    font-family: "Kanit", sans-serif;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.conbox{
+    align-content: center
+}
+
+/* Style for the dropdown table */
+.dropdown-table {
+    position: relative;
+}
+
+.dropdown-table button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Set the initial state of the dropdown content to none */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.dropdown-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dropdown-content table, th, td {
+    border: 1px solid #ddd;
+}
+
+.dropdown-content th, .dropdown-content td {
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-content th {
+    background-color: #f2f2f2;
+}
+
+/* TOP XE MỚI */
+#content .ptop{
+    width:100%;
+    margin:0;
+    padding:15px 0 35px;
+}
+#content .ptop .pleft{
+    width:50%;
+    display:inline-block;
+    vertical-align:top;
+    padding:0 0 0 15px;
+}
+#content .ptop .pleft .thumb{
+    position:relative;
+    display:block;
+    box-shadow:-15px 15px #eb0a1e;
+}
+#content .ptop .pleft .thumb img{
+    display:block;
+    width:100%;
+    height:465px;
+    object-fit:cover;
+    -o-object-fit:cover;
+    object-position:center;
+    -o-object-position:center;
+    border:none;
+}
+
+#content .ptop .pright{
+    width:50%;
+    display:inline-block;
+    vertical-align:top;
+    padding-left:5%;
+}
+#content .ptop .pright h1{
+    margin:0;
+    padding:15px 0 35px 35px;
+    font:700 36px/50px sans-serif;
+    color:#222;
+    text-transform:uppercase;
+}
+#content .ptop .pright h2{
+    margin:0;
+    padding:0 0 35px 35px;
+    font:400 15px/25px sans-serif;
+    color:#222;
+    text-transform:uppercase;
+}
+#content .ptop .pright .tool{
+    padding:0 0 35px 35px;
+}
+#content .ptop .pright .tool a{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    font:600 14px/20px sans-serif;
+    color:#eb0a1e;
+    text-transform:uppercase;
+}
+#content .ptop .pright .tool span{
+    display:inline-block;
+    vertical-align:top;
+    width:1px;
+    height:20px;
+    margin:0 15px;
+    border-right:#ccc 1px solid;
+}
+#content .ptop .pright .tech{
+    padding:0 0 35px;
+}
+#content .ptop .pright .tech ul{
+    display:inline-block;
+    vertical-align:top;
+    width:auto;
+    padding:0;
+    margin:0;
+    list-style:none
+}
+#content .ptop .pright .tech ul li{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    width:auto;
+    margin:0;
+    padding:0 35px;
+    list-style:none;
+    white-space:nowrap;
+    text-align:center;
+}
+#content .ptop .pright .tech ul li:before{
+    position:absolute;
+    top:8px;
+    bottom:2px;
+    right:0;
+    width:1px;
+    background:#ccc;
+    content:"";
+}
+#content .ptop .pright .tech ul li:last-child:before{
+    display:none;
+}
+#content .ptop .pright .tech ul li p{
+    margin:0;
+    padding:0 0 25px;
+    font:400 16px/25px sans-serif;
+    color:#222;
+}
+#content .ptop .pright .tech ul li div{
+    margin:0;
+    padding:0;
+    font:400 22px/25px sans-serif;
+    color:#222;
+}
+
+#content .ptop .pright .pri{
+}
+#content .ptop .pright .pri ul{
+    display:inline-block;
+    vertical-align:top;
+    width:auto;
+    padding:0;
+    margin:0;
+    list-style:none
+}
+#content .ptop .pright .pri ul li{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    width:auto;
+    margin:0;
+    padding:0 45px;
+    list-style:none;
+    white-space:nowrap;
+    text-align:center;
+}
+#content .ptop .pright .pri ul li:before{
+    position:absolute;
+    top:8px;
+    bottom:2px;
+    right:0;
+    width:1px;
+    background:#ccc;
+    content:"";
+}
+#content .ptop .pright .pri ul li:last-child:before{
+    display:none;
+}
+#content .ptop .pright .pri ul li p{
+    margin:0;
+    padding:0 0 25px;
+    font:400 16px/25px sans-serif;
+    color:#222;
+}
+#content .ptop .pright .pri ul li div{
+    position:relative;
+    margin:0;
+    padding:0;
+    font:400 22px/25px sans-serif;
+    color:#222;
+}
+#content .ptop .pright .pri ul li div span{
+    position:absolute;
+    top:-6px;
+    font:600 12px sans-serif;
+}
+/* END TOP XE */
+
+#content .pkt ul{
+    width:100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+    border:#ccc 1px solid;
+    border-bottom:#ccc 0px solid;
+}
+#content .pkt ul li{/* width:100%; */
+    margin:0;
+    padding:0;/* list-style:none; */
+    border-bottom:#ccc 1px solid;
+}
+
+#content .pkt ul li .head{
+    position:relative;
+    display:flex;
+    padding:20px 30px;
+    justify-content:space-between;
+    transition:all 0.3s ease-in-out;
+    align-items:center;
+    cursor:pointer;
+}
+#content .pkt ul li .head h2{
+    margin:0;
+    padding:0;
+    font:700 16px/30px sans-serif;
+    color:#222;
+    text-transform:uppercase;
+}
+#content .pkt ul li .head i{
+    color:#eb0a1e;
+    font-size:20px;
+    transition:transform 0.3s ease-in-out;
+}
+#content .pkt ul li .head:hover i{
+    transform:rotate(180deg);
+}
+#content .pkt ul li .head.active i{
+    transform:rotate(180deg);
+}
+
+#content .pkt ul li .ibox{
+    display:none;
+    padding:0 0 25px;
+    border-top:#ccc 1px solid;
+}
+#content .pkt ul li .ibox .sgroup{
+    margin:0;
+}
+#content .pkt ul li .ibox .sgroup .shead{
+    position:relative;
+    display:flex;
+    padding:15px 30px;
+    justify-content:space-between;
+    transition:all 0.3s ease-in-out;
+    align-items:center;
+}
+#content .pkt ul li .ibox .sgroup .shead h3{
+    margin:0;
+    padding:0;
+    font:700 16px/20px sans-serif;
+    color:#222;
+}
+
+#content .pkt ul li .ibox .sgroup .sibox{
+    padding:0 30px;
+}
+#content .pkt ul li .ibox .sgroup .sibox table{
+    margin:0;
+    border-collapse:collapse;
+    border:#ccc 1px solid;
+}
+#content .pkt ul li .ibox .sgroup .sibox table tr:nth-child(odd){
+    background:#eceff1;
+}
+#content .pkt ul li .ibox .sgroup .sibox table tr:nth-child(even){
+    background:#fafafa;
+}
+#content .pkt ul li .ibox .sgroup .sibox table td{
+    width:44%;
+    padding:10px 15px;
+    font:400 16px/20px sans-serif;
+    color:#222;
+    border-left:#ddd 1px dashed;
+}
+#content .pkt ul li .ibox .sgroup .sibox table td:first-child{
+    border-left:#ddd 0px dashed;
+}

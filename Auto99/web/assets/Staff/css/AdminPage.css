@@ -1,0 +1,253 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+/* 
+    Created on : Sep 6, 2023, 6:08:06 PM
+    Author     : ACER
+*/
+
+
+/* ===== Google Font Import - Poppins ===== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+/* Nav */
+
+nav {
+    width: 290px;
+    overflow: hidden;
+}
+
+.sidenavbar {
+    background: white;
+    width: 250px;
+    padding: 1rem;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.logo span {
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.sidenavbar a {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.sidenavbar i {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 1.8rem 0 0.3rem;
+}
+
+.sidenavbar a:hover {
+    width: 220px;
+    background: red;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+}
+
+.logout i {
+    padding-right: 1rem;
+}
+
+
+/* Main Body */
+
+.main-body {
+    margin-left: 95px;
+    /* Để nội dung chính không bị che khuất bởi nav và sidenavbar */
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.header h1 {
+    margin: 1.3rem 0;
+    color: black;
+}
+
+.following-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 2rem;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.card a {
+    color: black;
+}
+
+.card:hover {
+    background: red;
+    transition: 0.5s ease-out;
+}
+
+.card a:hover {
+    color: white;
+}
+
+.length-box {
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+::selection {
+    color: #fff;
+    background: #17A2B8;
+}
+
+.price-input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price-input .field {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+}
+
+.field input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 19px;
+    margin-left: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #999;
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.price-input .separator {
+    width: 130px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.slider .progress {
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    border-radius: 5px;
+    background: #17A2B8;
+}
+
+.range-input {
+    position: relative;
+}
+
+.range-input input {
+    position: absolute;
+    width: 100% !important;
+    margin-left: 0px !important;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: #17A2B8;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}

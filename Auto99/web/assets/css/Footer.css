@@ -1,0 +1,162 @@
+footer {
+    display: block;
+    background: #101010;
+}
+
+footer .box {
+    width: 65%;
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+}
+
+footer .box a {
+    color: white;
+}
+
+footer .box a:hover {
+    color: red;
+}
+
+footer .box ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+footer .box ul li {
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    padding: 18px;
+    vertical-align: top;
+}
+
+footer .box ul li h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+
+footer .box ul li p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+@media (max-width: 550px) {
+    footer .box {
+        width: 100%;
+        color: white;
+        text-align: left;
+    }
+    footer .box ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 0;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    footer .box ul li .head {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    footer .box ul li .info .bct img{
+        width:90px;
+    }
+    footer .box ul li .info {
+        font-size: 8px;
+
+    }
+}
+
+@media (min-width: 550px)and (max-width: 768px) {
+    footer .box {
+        width: 90%;
+        color: white;
+        text-align: left;
+    }
+    footer .box ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 0;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    footer .box ul li .head {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    footer .box ul li .info .bct img{
+        width:90px;
+    }
+    footer .box ul li .info {
+        font-size: 10px;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    footer .box {
+        width: 90%;
+        color: white;
+        text-align: left;
+    }
+    footer .box ul li {
+        display: inline-block;
+        width: 32%;
+        margin: 0;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    footer .box ul li .head {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    footer .box ul li .info .bct img{
+        width:90px;
+    }
+    footer .box ul li .info {
+        font-size: 12px;
+
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    footer .box {
+        width: 80%;
+        color: white;
+        text-align: left;
+    }
+    footer .box ul li {
+        display: inline-block;
+        width: 32%;
+        margin: 0;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    footer .box ul li .head {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    footer .box ul li .info .bct img{
+        width:110px;
+    }
+    footer .box ul li .info {
+        font-size: 16px;
+    }
+}

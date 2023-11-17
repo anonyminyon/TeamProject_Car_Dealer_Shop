@@ -1,0 +1,13 @@
+/Auto99/build/
+/Auto99/dist/
+<<<<<<< HEAD
+Auto99/nbproject/private/private.xml
+=======
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+>>>>>>> f1a45faa511aa0019cb0afca0c94af973e6e7f31
